@@ -8,7 +8,7 @@ base_url = "http://books.toscrape.com/catalogue/page-{}.html"
 high_r_books = []
 
 # Page iteration
-for page in range(1,51):
+for page in range(1, 51):
 
     # Create soup for every page
     page_url = base_url.format(page)
